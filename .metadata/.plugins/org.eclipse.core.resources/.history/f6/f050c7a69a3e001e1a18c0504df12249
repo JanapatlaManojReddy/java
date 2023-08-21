@@ -1,0 +1,68 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>welcome to coding hub </title>
+<style>
+body{
+margin:20px;
+}
+
+</style>
+
+</head>
+<body>
+<form>
+<fieldSet align="center">
+<legend><h1>courser Offered</h1></legend>
+<table align="center" cellspacing="5" cellpadding="5">
+<tr>
+<th>Course </th>
+<th>Duration</th>
+<th>Fees</th>
+</tr>
+<tr>
+<td>Angular/js/react</td>
+<td>3 months</td>
+<td>25000</td>
+
+</tr>
+<tr>
+<td>JavaFullStack</td>
+<td>5 months</td>
+<td>45000</td>
+
+</tr>
+<tr>
+<td>PythonFullStack</td>
+<td>4 months</td>
+<td>35000</td>
+
+</tr>
+<tr>
+<td>Java</td>
+<td>2 months</td>
+<td>15000</td>
+
+</tr>
+<tr>
+<td>html/css</td>
+<td>45 days</td>
+<td>10000</td>
+
+</tr>
+<tr>
+<td><a href="StudentRegistration.jsp">enroll</a></td>
+<td></td>
+<td><button a href="ManagementLogin.jsp"></a>AdminLogin</button></td>
+</tr>
+</table>
+
+
+</feildSet>
+</form>
+
+</body>
+</html>

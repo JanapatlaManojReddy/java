@@ -1,0 +1,17 @@
+127.0.0.1 - - [03/Aug/2023:15:54:55 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:15:54:56 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:15:54:57 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:07:12 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+127.0.0.1 - - [03/Aug/2023:16:08:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:08:51 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:22:28 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:22:52 +0530] "GET /Servlets2/registration.html/app2 HTTP/1.1" 404 791
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:23:00 +0530] "GET /Servlets2/registration.html/app1 HTTP/1.1" 404 791
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:23:05 +0530] "GET /Servlets2/registration.html/app2 HTTP/1.1" 404 791
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:24:19 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:24:34 +0530] "GET /Servlets2/registration.html/app2 HTTP/1.1" 404 791
+127.0.0.1 - - [03/Aug/2023:16:33:10 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:33:10 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+127.0.0.1 - - [03/Aug/2023:16:35:35 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:35:36 +0530] "GET /Servlets2/registration.html HTTP/1.1" 404 782
+0:0:0:0:0:0:0:1 - - [03/Aug/2023:16:35:50 +0530] "GET /Servlets2/registration.html/app2 HTTP/1.1" 404 791

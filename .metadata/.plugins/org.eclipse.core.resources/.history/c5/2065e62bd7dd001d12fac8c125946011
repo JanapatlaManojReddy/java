@@ -1,0 +1,24 @@
+package multiThreading;
+class C1 extends Thread{
+	public void run() {
+		for(int x=0;x<5;x++) {
+			System.out.println("thread 1");
+		}
+		
+	}
+}
+
+public class Thread1 {
+
+	public static void main(String[] args) {
+		C1 c = new C1();
+		
+		System.out.println(c.getName());
+		System.out.println(Thread.currentThread().getName());
+		c.setName("main thread");
+		System.out.println(c.getName());
+		c.start();
+
+	}
+
+}

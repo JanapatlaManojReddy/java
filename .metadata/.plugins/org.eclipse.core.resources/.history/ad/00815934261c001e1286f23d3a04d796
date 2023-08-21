@@ -1,0 +1,14 @@
+package preparedStatement;
+import java.sql.*;
+
+
+public class DAO {
+	public static ResultSet data()throws Exception{
+		String query ="select * from customer";
+		Connection con = ConnectionFactory.getData();
+		PreparedStatement pt = con.prepareStatement(query);
+		ResultSet rs = pt.executeQuery();
+		return rs;
+	}
+
+}

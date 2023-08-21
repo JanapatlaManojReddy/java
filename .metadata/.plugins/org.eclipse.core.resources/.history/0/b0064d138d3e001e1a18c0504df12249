@@ -1,0 +1,65 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<fieldSet action="studentServlet">
+<legend>Student Registration</legend>
+<div>
+<lable for="sname">studentName</lable>
+<input type="text" name="studentName" placeholder="@manojreddy" required>
+<lable for="cname">collegetName</lable>
+<input type="text" name="collegeName" placeholder="@mallaReddyCollege" required>
+
+<lable >qualification:</lable>
+<lable for="stream">BTECH</lable>
+<select id ="stream" name="stream" >
+<option value ="EEE">EEE</option>
+<option value ="ECE">ECE</option>
+<option value ="CSE">CSE</option>
+<option value ="CIVIL">CIVIL</option>
+<option value ="MECH">MECH</option>
+<option value ="OTHERS">OTHERS</option>
+</select>
+<lable for="stream">DEGREE</lable>
+<select id ="stream" name="stream" >
+<option value ="EEE">EEE</option>
+<option value ="ECE">ECE</option>
+<option value ="CSE">CSE</option>
+<option value ="CIVIL">CIVIL</option>
+<option value ="MECH">MECH</option>
+<option value ="OTHERS">OTHERS</option>
+</select>
+<lable for="pyear">PassedOut Year</lable>
+<select id="pyear" name="pyear">
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+
+
+</select>
+<lable for="courses">COURSES</lable>
+<select id ="courses" name="courses">
+<option value="JAVAFULLSTACK">JAVAFULLSTACK </option>
+<option value="PYTHONFULLSTACK">PYTHONFULLSTACK </option>
+<option value="JAVA">JAVA</option>
+<option value="HTML/CSS">HTML/CSS </option>
+<option value="ANGULAR/REACT">ANGULAR/REACT </option>
+</select>
+<input type="submit" value="submit">
+
+</div>
+</fieldSet>
+</form>
+
+</body>
+</body>
+</html>

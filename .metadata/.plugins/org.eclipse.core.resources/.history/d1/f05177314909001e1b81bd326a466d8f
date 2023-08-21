@@ -1,0 +1,26 @@
+package oops;
+
+public class Constructors {
+
+	public static void main(String[] args) {
+		A ref= new A();
+		
+		
+
+	}
+
+}
+class A{
+	int a;
+	String s;
+	boolean c;
+	A(){
+		a=122;
+		s="manoj";
+		c=true;
+	}
+	void dis() {
+		System.out.println(a+s+c);
+	}
+	
+}

@@ -1,0 +1,28 @@
+package conditionalStatements;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		int num=153,temp=num,count=0,rem=0,res=0,arm=0,pow=1;
+		for(;num>0;num/=10) {
+			count++;
+		}
+		num=temp;
+		for(;num>0;num/=10) {
+			rem=num%10;
+			{
+				pow=1;
+				for(int x=0;x<count;x++) {
+					pow=pow*rem;
+					
+				}
+			}
+			arm=arm+pow;
+			
+			
+		}
+		System.out.println(arm);
+
+	}
+
+}

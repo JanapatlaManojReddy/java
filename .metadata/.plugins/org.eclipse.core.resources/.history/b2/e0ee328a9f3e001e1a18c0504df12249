@@ -1,0 +1,12 @@
+package institutionProject;
+
+import java.sql.ResultSet;
+
+public class StudentRegistrationDao {
+	public static ResultSet getData() {
+		
+		
+		
+	}
+
+}

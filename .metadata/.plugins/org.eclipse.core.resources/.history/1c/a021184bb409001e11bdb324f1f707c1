@@ -1,0 +1,37 @@
+package oops;
+class Parent111{
+	String color="black";
+	Parent111(){
+		System.out.println("parent class");
+		
+	}
+	void parentss() {
+		System.out.println("parent class method");
+	}
+}
+class Child111 extends Parent111{
+	String color="white";
+	Child111(){
+		
+		super();
+		System.out.println("child class");
+		
+	}
+	void prints() {
+		super.parentss();
+		System.out.println(color);
+		System.out.println(super.color);
+	}
+}
+
+public class SuperKeyword {
+
+	public static void main(String[] args) {
+		Child111 c= new Child111();
+		c.prints();
+		
+		
+
+	}
+
+}

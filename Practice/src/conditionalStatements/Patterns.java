@@ -1,0 +1,120 @@
+package conditionalStatements;
+
+public class Patterns {
+
+	public static void main(String[] args) {
+		/*int x=0,y=0;
+		for(x=0;x<4;x++) {
+			for(y=0;y<4;y++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}*/
+		
+		
+		/*int x=0,y=0;
+		for(x=0;x<4;x++) {
+			for(y=x;y<4;y++) {
+				System.out.print("*");
+			}System.out.println();
+		}*/
+		
+		
+		/*int x=0,y=0;
+		for(x=0;x<4;x++) {
+			
+			for(y=0;y<=x;y++) {
+				System.out.print("*");
+				
+			}
+			System.out.println();
+		}*/
+		
+		/*int x=0,y=0,z=0;
+		for(x=0;x<4;x++) {
+			for(z=0;z<x;z++) {
+				System.out.print(" ");}
+				for(y=x;y<4;y++) {
+					System.out.print("*");
+				}
+			
+			System.out.println();
+			
+		}*/
+		
+		/*int x=0,z=0,y=0;
+		for(x=0;x<4;x++) {
+			for(z=3;z>x;z--) {
+				System.out.print(" ");
+			}
+			for(y=0;y<=x;y++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}*/
+
+		
+		/*int x=0,z=0,y=0;
+		for(x=0;x<4;x++) {
+			for(z=3;z>x;z--) {
+				System.out.print(" ");
+			}
+			for(y=0;y<=x;y++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}*/
+		
+		
+		/*int x=0,z=0,y=0;
+		for(x=0;x<4;x++) {
+			for(z=0;z<x;z++) {
+				System.out.print(" ");
+			}
+			for(y=4;y>x;y--) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}*/
+		
+		/*int x=0,z=0,y=0;
+		for(x=1;x<5;x++) {
+			for(z=3;z>=x;z--) {
+				System.out.print(" ");
+			}
+			for(y=1;y<=(2*x-1);y++) {
+			
+				System.out.print("*");
+			}
+			System.out.println();
+		}*/
+		
+		int x=0,z=0,y=0;
+				char a='A';
+		for(x=0;x<4;x++) {
+			 a='A';
+			for(z=3;z>x;z--) {
+				System.out.print(" ");
+			}
+			for(y=0;y<=x;y++) {
+				System.out.print(a+" ");
+				a++;
+			}
+			System.out.println();
+		}
+		
+		for(x=0;x<3;x++) {
+			a='A';
+			for(z=0;z<=x;z++) {
+				System.out.print(" ");
+				
+			}
+			for(y=x;y<3;y++) {
+				System.out.print(a+" ");
+				a++;
+			}
+			System.out.println();
+		}
+	}
+
+}

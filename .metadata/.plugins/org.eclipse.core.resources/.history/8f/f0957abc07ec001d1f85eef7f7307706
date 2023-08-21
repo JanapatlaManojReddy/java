@@ -1,0 +1,60 @@
+package basics;
+
+public class Operators{
+	static int a = 5;
+	static int b = 10;
+	public static void main(String[] args) {
+		// +,-,/,%
+		int result=0;
+		int num=10;
+		int c =64;
+		System.out.println(c>>>2);
+		
+		
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		
+		System.out.println(b+a);
+		System.out.println(b-a);
+		System.out.println(b/a);
+		System.out.println(b%a);
+		System.out.println(b=a---a);
+		System.out.println(++a);
+		System.out.println(b);
+		result = +num;
+        System.out.println(
+            "The value of result after unary plus is: "
+            + result);
+ 
+        result = -num;
+        System.out.println(
+            "The value of result after unary minus is: "
+            + result);
+ 
+        result = ++num;
+        System.out.println(
+            "The value of result after pre-increment is: "
+            + result);
+ 
+        result = num++;
+        System.out.println(
+            "The value of result after post-increment is: "
+            + result);
+ 
+        result = --num;
+        System.out.println(
+            "The value of result after pre-decrement is: "
+            + result);
+ 
+        result = num--;
+        System.out.println(
+            "The value of result after post-decrement is: "
+            + result);
+        System.out.println(num);
+    }
+
+	}
+
+

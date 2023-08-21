@@ -1,0 +1,24 @@
+package conditionalStatements;
+
+public class ExtraxtionModel {
+
+	public static void main(String[] args) {
+		int num=2345,rem=0,sum=0,largest=0,small=0;
+		for(;num>0;num/=10) {
+			rem=num%10;
+			if(rem>largest) {
+				largest=rem;
+			}
+			if(rem<small) {
+				small=rem;
+			}
+			sum+=rem;
+			
+		}
+ System.out.println(sum);
+ System.out.println(largest);
+ System.out.println(small);
+ 
+	}
+
+}

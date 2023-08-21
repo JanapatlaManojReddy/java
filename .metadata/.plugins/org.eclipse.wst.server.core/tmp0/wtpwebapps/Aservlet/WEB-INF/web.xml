@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>Manoj</servlet-name>
+		<servlet-class>Demo</servlet-class>
+	</servlet>
+		<servlet-mapping>
+			<servlet-name>Manoj</servlet-name>
+			<url-pattern>/app1</url-pattern>
+		</servlet-mapping>
+</web-app>

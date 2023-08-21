@@ -1,0 +1,48 @@
+package collections;
+import java.util.*;
+
+public class ArrayList1  {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> arr=new ArrayList<Integer>();
+		ArrayList<Integer>arr1=new ArrayList<>();
+		arr.add(0);
+		arr.add(1);
+		arr.add(9);
+		arr.add(2);
+		arr.add(3);
+		arr1.addAll(arr);
+		arr1.addAll(arr1);
+		
+		Collections.sort(arr);
+		System.out.println(arr);
+		System.out.println( arr.clone());
+		arr.contains(3);
+		System.out.println( arr1.contains(1));
+
+		System.out.println(arr);
+		System.out.println(arr1);
+		System.out.println(arr.containsAll(arr1));
+		System.out.println (arr.equals(arr1));
+		System.out.println(arr.get(0));
+		System.out.println(arr.getClass());
+		
+		System.out.println(arr.isEmpty());
+		System.out.println(arr.iterator());
+		System.out.println(arr.hashCode());
+		System.out.println(arr.indexOf(2));
+		System.out.println(arr.lastIndexOf(2));
+		//System.out.println(arr.remove(6));
+		System.out.println(arr.removeAll(arr1));
+		
+		
+
+	}
+	
+	//Iterator i = arr.iterator();
+	//ile(arr.hasNext()) {
+		
+	//}
+
+}

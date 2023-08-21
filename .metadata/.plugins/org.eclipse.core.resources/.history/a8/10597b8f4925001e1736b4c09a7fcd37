@@ -1,0 +1,5 @@
+package DA0;
+
+public interface Company_DAO {
+
+}

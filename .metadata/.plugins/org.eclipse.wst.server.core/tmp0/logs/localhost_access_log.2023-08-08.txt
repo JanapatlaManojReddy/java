@@ -1,0 +1,7 @@
+127.0.0.1 - - [08/Aug/2023:15:04:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:15:04:19 +0530] "GET /OnlineShoppingPortal/UserLogin.jsp HTTP/1.1" 200 877
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:15:04:19 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:15:05:05 +0530] "GET /OnlineShoppingPortal/UserLogin.jsp HTTP/1.1" 200 887
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:15:05:54 +0530] "GET /OnlineShoppingPortal/UserLogin.jsp HTTP/1.1" 200 883
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:15:06:19 +0530] "GET /OnlineShoppingPortal/UserLogin.jsp HTTP/1.1" 200 883
+0:0:0:0:0:0:0:1 - - [08/Aug/2023:15:06:39 +0530] "GET /OnlineShoppingPortal/UserLogin.jsp HTTP/1.1" 200 889

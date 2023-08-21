@@ -1,0 +1,15 @@
+package conditionalStatements;
+
+public class ExtraxtionModel {
+
+	public static void main(String[] args) {
+		int num=2030,rem=0;
+		for(int i=1;i<5;i++) {
+		(	rem=num%10;
+		System.out.println
+			System.out.println (num/=10);
+		}
+
+	}
+
+}

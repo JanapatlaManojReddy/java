@@ -1,0 +1,26 @@
+package oops;
+
+public class Constructors {
+
+	public static void main(String[] args) {
+		Am ref= new Am();
+		
+		
+
+	}
+
+}
+class Am{
+	int a;
+	String s;
+	boolean c;
+	Am(){
+		a=122;
+		s="manoj";
+		c=true;
+	}
+	void dis() {
+		System.out.println(a+s+c);
+	}
+	
+}

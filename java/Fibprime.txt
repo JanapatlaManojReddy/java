@@ -1,0 +1,20 @@
+import java.util.*;
+
+
+class Fibprime
+{
+	public static void main(String args[])
+	{
+		int a=0,b=1,c=0;
+		System.out.println(a+"\t"+b+"\t");
+		for(n=1,n<10,n++)
+		{
+			c=a+b;
+			System.out.println(c+"\t");
+			a=b;
+			b=c;
+		}
+	}
+}
+		
+		

@@ -1,0 +1,16 @@
+package conditionalStatements;
+
+public class Switch {
+	public static void main(String[] args) {
+		int a =1;
+	switch(a) {
+	case 1: 
+	case 3:System.out.println("how are you");
+			break;
+	
+	
+	
+	}
+	}
+
+}

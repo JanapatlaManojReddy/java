@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p{
+diplay:block;
+}
+
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript" src="formValidation.js"> </script>
+<body>
+<form  name="myform" action="ManagerServlet" onsubmit="return validation()" method="post">
+<fieldSet>
+<legend>ManagementLogin</legend>
+<lable for="username">username:</lable>
+<input type="text" name="username">
+<p id="user" style="color:red;"><p>
+<lable for="password">password:</lable>
+<input type="password" name="password">
+<p id="pass" style="color:red;"></p> 
+<input type="submit" value="submit">
+
+
+</fieldSet>
+</form>
+
+</body>
+</html>

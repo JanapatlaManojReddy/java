@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+function validation(){
+	var username =document.myform.username.value;
+	var password =document.myform.password.value;
+	if(username==null|| username=""){
+		document.geElementById("user").innerHTML="enter a valid username"
+		return false;
+	}
+	else if(password.length<6){
+		
+		document.getElementById("pass").innerHTML="length of password must be greterthen 6 letters"
+		return false;
+	}
+	
+	
+}

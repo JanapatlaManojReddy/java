@@ -1,0 +1,8 @@
+class E1p2
+{
+	public static void main(String args[])
+	{
+		a=3,b=7,c=1;
+        (a<b)?(a<c?a:c):(b<c?b:c);
+	}
+}

@@ -1,0 +1,102 @@
+package Controller;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.util.Scanner;
+import connection.Service_Factory;
+import DTO.Company_Dto;
+import service.Company_Service;
+import connection.*;
+
+public class Company_Main {
+	static int CregNo;
+	static String Cname;
+	static String Clocation;
+	static int CempNo;
+	static String Cheadquarters;
+	static int Cshare;
+	static String Cceo;
+	
+	
+	static int rows;
+
+	public static void main(String[] args)throws ClassNotFoundException,SQLException, Exception {
+		
+		/*String url="jdbc:mysql://localhost:3306/project";
+		String u="root";
+		String p = "manoj123";
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection(url,u,p);
+		PreparedStatement pst =con.prepareStatement("select * from Company");
+		ResultSet rs;
+		rs=pst.executeQuery();*/
+		Company_Dto cdto= new Company_Dto();
+		Company_Service cserv= Service_Factory.getService_Factory();
+		Scanner sc = new Scanner(System.in);
+		
+		ResultSetMetaData rsmd;
+		System.out.println("WELCOME TO MNC PORTEL");
+		
+		while(true) {
+			System.out.println();
+			System.out.println("1.Company Registration \t 2.Update Company Details \t 3.Display All Registered MNC's \t 4.Delete the company \t 5.Display in Sorted Form of MNC's \t 6.exit the portel");
+			System.out.println("choose your option to continue \t:\t");
+			int choice = sc.nextInt();
+			switch(choice) {
+			case 1 :  
+					  System.out.println();
+					  System.out.println("Enter Company Details");
+					  System.out.println("company reg number \t:\t");
+					  CregNo=sc.nextInt();
+					  /*while(rs.next()) {
+						  if(rs.getInt(1)==CregNo) {
+							  
+							  System.out.println("a company already registered with this reg number");
+							  System.out.println("thank you for using company portal");
+							  System.exit(1);
+						  }
+					  }*/
+					  
+					  System.out.println("company Name \t:\t");
+					  Cname =sc.next();
+					  System.out.println("company location \t:\t");
+					  Clocation = sc.next();
+					  System.out.println("no of employes in company \t:\t");
+					  CempNo=sc.nextInt();
+					  System.out.println("company headquarters \t:\t");
+					  Cheadquarters = sc.next();
+					  System.out.println("company share value \t:\t");
+					  Cshare = sc.nextInt();
+					  System.out.println("company Ceo \t:\t");
+					  Cceo=sc.next();
+					  System.out.println();
+					  cdto.setCreg(CregNo);
+					  cdto.setCname(Cname);
+					  cdto.setClocation(Clocation);
+					  cdto.setCempNo(CempNo);
+					  cdto.setCheadquarters(Cheadquarters);
+					  cdto.setCshare(Cshare);
+					  cdto.setCceo(Cceo);
+					  rows=cserv.Register_Company(cdto);
+					  if(rows>0){
+						  System.out.println("COMPANY REGISTRATION SUCCESFULL");
+					  }
+					  else{
+						  System.out.println("COMPANY REGISTRATION FAILS -- ENTER CORRECT DETAILS");
+					  }
+					  break;
+				  
+		
+			}
+			
+		}
+		
+		
+		
+
+	}
+
+}

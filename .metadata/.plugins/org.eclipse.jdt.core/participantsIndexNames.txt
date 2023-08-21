@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\java programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\673911899.index
+\institutionProject\src\main\java
+C:\java programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1926516634.index
+\Cookies\src\main\java
+C:\java programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2368116675.index
+\OnlineShoppingPortal\src\main\java
+C:\java programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1732060705.index
+\MaveenDemo\src\main\resources
+C:\java programs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\930597220.index
+\institutionProject\src\main\java

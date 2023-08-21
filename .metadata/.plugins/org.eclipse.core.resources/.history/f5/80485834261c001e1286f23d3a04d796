@@ -1,0 +1,19 @@
+package preparedStatement;
+import java.sql.*;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+     ResultSet rs = DAO.data();
+     while(rs.next()) {
+    	 System.out.print(rs.getInt(1)+" ");
+	    	System.out.print(rs.getString(2)+" ");
+	    	System.out.print(rs.getString(3)+" ");
+	    	System.out.print(rs.getDate(4)+" ");
+	    	System.out.print(rs.getInt(5)+" ");
+	    	System.out.print(rs.getString(6)+" ");
+	    	System.out.println();
+     }
+	}
+
+}

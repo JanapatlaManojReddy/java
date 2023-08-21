@@ -1,0 +1,109 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="StudentServlet" method="post">
+<fieldSet >
+<legend>Student Registration</legend>
+<div>
+<table>
+
+<tr>
+<th align="left">
+<lable for="studentname">StudentName</lable>
+</th>
+
+<td>:
+<input type="text" name="studentName" placeholder="@manojreddy" required autocomplete="off">
+</td>
+</tr>
+
+<tr>
+
+<th align="left">
+<lable for="cname" align="left">CollegetName</lable></th>
+<td>:
+<input type="text" name="collegeName" placeholder="@mallaReddyCollege" required>
+</td>
+
+</tr>
+<th align="left">
+<lable for="passoutYear">PassoutYear</lable>
+</th>
+<td>:
+<select id="passoutYear" name="passoutYear">
+<option value="select" selected>select</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+<option value="2021">2021</option>
+<option value="2022">2022</option>
+<option value="2023">2023</option>
+
+
+</select>
+</td>
+</tr>
+
+<tr>
+<th>
+<lable for="qualification" >qualification</lable>
+</th>
+<td>:
+<select id ="qualification" name="qualification" >
+<option value="select" selected>select</option>
+<optgroup lable="Btech">
+<option value ="EEE">EEE</option>
+<option value ="ECE">ECE</option>
+<option value ="CSE">CSE</option>
+<option value ="CIVIL">CIVIL</option>
+<option value ="MECH">MECH</option>
+<option value ="OTHERS">OTHERS</option></optgroup>
+<optgroup lable="degree">
+<option value ="BSC">BSC</option>
+<option value ="MPCS">MPCS</option>
+<option value ="BCOM">BCOM</option>
+<option value ="BA">BA</option>
+<option value ="CS">CS</option>
+<option value ="OTHERS">OTHERS</option>
+</optgroup>
+</select>
+</td>
+</tr>
+
+<tr>
+
+<tr>
+<th align="left">
+<lable for="courses">Courses:</lable></th>
+<td>:
+<select id ="courses" name="courses">
+<option value="select" selected>select</option>
+<option value="JAVAFULLSTACK">JAVAFULLSTACK </option>
+<option value="PYTHONFULLSTACK">PYTHONFULLSTACK </option>
+<option value="JAVA">JAVA</option>
+<option value="HTML/CSS">HTML/CSS </option>
+<option value="ANGULAR/REACT">ANGULAR/REACT </option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit" value="submit">
+</td>
+</tr>
+
+</table>
+</div>
+
+</fieldSet>
+</form>
+
+</body>
+</body>
+</html>

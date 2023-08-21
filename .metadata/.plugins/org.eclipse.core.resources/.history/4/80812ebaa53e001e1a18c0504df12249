@@ -1,0 +1,32 @@
+package institutionProject;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import java.sql.SQLException;
+
+public class StudentRegistrationDao {
+	public static int getData(String studentName, String collegeName, int passoutYear, String qualification, String courses) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		String url="jdbc:mysql://localhost:3306/project";
+		String u="root";
+		String p="manoj123";
+		Connection con=DriverManager.getConnection(url,u,p);
+		String query="insert into student values(?,?,?,?,?)";
+		PreparedStatement pre= con.prepareStatement(query);
+		pre.setString(1,studentName);
+		pre.setString(2,collegeName);
+		pre.setInt(3,passoutYear);
+		pre.setString(4,qualification);
+		pre.setString(5,courses);
+		 return pre.executeUpdate();
+	
+		
+		
+		
+		
+	}
+
+
+}

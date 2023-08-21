@@ -1,0 +1,27 @@
+package conditionalStatements;
+
+public class Patterns {
+
+	public static void main(String[] args) {
+		/*int x=0,y=0;
+		for(x=0;x<4;x++) {
+			for(y=0;y<4;y++) {
+				System.out.print("#");
+			}
+			System.out.println();
+		}*/
+		
+		
+		int x=0,y=0;
+		for(x=0;x<4;x++) {
+			for(int z=0)
+			for(y=0;y<=x;y++) {
+				System.out.print("*");
+				
+			}
+			System.out.println();
+		}
+
+	}
+
+}

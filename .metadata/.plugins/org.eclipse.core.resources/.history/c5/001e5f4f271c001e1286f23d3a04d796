@@ -1,0 +1,15 @@
+package preparedStatement;
+import java.sql.*;
+
+
+public class DAO {
+	public static ResultSet data(Bean b)throws Exception{
+		String query ="insert into customer values(?,?,?,?,?,?)";
+		Connection con = ConnectionFactory.getData();
+		PreparedStatement pt = con.prepareStatement(query);
+		pt.set
+		ResultSet rs = pt.executeQuery();
+		return rs;
+	}
+
+}
